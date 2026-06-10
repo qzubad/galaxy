@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Galaxxy</title>
+<title>Galaxy</title>
 <style>
 html,body,canvas{margin:0;width:100%;height:100%;display:block;background:#000;overflow:hidden}
 </style>
@@ -61,7 +61,7 @@ gl.attachShader(p,sh(gl.FRAGMENT_SHADER,fs));
 gl.linkProgram(p);
 gl.useProgram(p);
 
-const COUNT=3000000;
+const COUNT=1000000;
 
 const pos=new Float32Array(COUNT*3);
 const col=new Float32Array(COUNT*3);
